@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A native JavaScript implementation of the Queue data structure",
   "main": "Queue.js",
-  "scripts": {
-    "test": "node Queue.test.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BletchleyTech/Queue.js.git"
