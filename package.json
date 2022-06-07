@@ -1,6 +1,6 @@
 {
   "name": "@bletchley-tech/queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A native JavaScript implementation of the Queue data structure",
   "main": "Queue.js",
   "repository": {
