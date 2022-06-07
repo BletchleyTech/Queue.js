@@ -7,7 +7,7 @@ Queue provides a simple JavaScript-native implementation of the queue data struc
 Using npm:
 
 ```shell
-$ npm install queue
+$ npm install @bletchley-tech/queue
 ```
 
 ## **Usage**
