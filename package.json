@@ -1,0 +1,30 @@
+{
+  "name": "queue.js",
+  "version": "0.0.0",
+  "description": "A native JavaScript implementation of the Queue data structure",
+  "main": "Queue.js",
+  "scripts": {
+    "test": "node Queue.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BletchleyTech/Queue.js.git"
+  },
+  "keywords": [
+    "queue",
+    "data",
+    "structures",
+    "data",
+    "structures",
+    "ds",
+    "fifo",
+    "data",
+    "structure"
+  ],
+  "author": "Bletchley Technological Solutions Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BletchleyTech/Queue.js/issues"
+  },
+  "homepage": "https://github.com/BletchleyTech/Queue.js#readme"
+}
