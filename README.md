@@ -53,6 +53,21 @@ The Queue class has only one property, queue, which is an array of values. The s
 
 The Queue class takes advantage of the new private class properties/methods JavaScript feature introduced in ES2022. This means that once the Queue is initialized, it will not be able to be changed except by the class' own methods.
 
+#### **Constructor**
+
+The Queue class has a constructor that takes either one or no arguments. 
+
+If no arguments are passed, the constructor returns a new, empty Queue instance. 
+
+If one argument is passed, the constructor acts as a copy constructor. This means the passed argument must be an instance of Queue, to be copied into a new instance which will be returned by the constructor.
+
+```javascript
+const queue = new Queue(); // Create a new empty Queue
+queue.enqueueMany(5, 1, 9); // Enqueue 5, 1, 9
+
+const queue2 = new Queue(queue); // Create a new Queue (queue2) with the same values as queue
+```
+
 ### **Class Methods**
 
 #### *enqueue(value)*
@@ -68,10 +83,6 @@ queue.enqueue(1); // Enqueue 1
 The enqueueMany method adds multiple values to the end of the queue.
 
 ```javascript
-queue.enqueueMany([1, 2, 3]); // Enqueue 1, 2, 3
-
-// or
-
 queue.enqueueMany(1, 2, 3); // Enqueue 1, 2, 3
 ```
 
@@ -116,6 +127,12 @@ queue.queue; // '2 - 3'
 ```
 
 This will return the queue as a string.
+
+#### *type*
+
+```javascript
+queue.type; // 'number'
+```
 
 ## License
 
