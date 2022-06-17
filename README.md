@@ -53,6 +53,14 @@ The Queue class has only one property, queue, which is an array of values. The s
 
 The Queue class takes advantage of the new private class properties/methods JavaScript feature introduced in ES2022. This means that once the Queue is initialized, it will not be able to be changed except by the class' own methods.
 
+---
+
+***Version 2.0.0 Update***
+
+*For version 2.0.0, the Queue data structure was defined to only accept one data type within itself to enforce data consistency. This was done to prevent the Queue from being used to store mixed data types.*
+
+---
+
 #### **Constructor**
 
 The Queue class has a constructor that takes either one or no arguments. 
