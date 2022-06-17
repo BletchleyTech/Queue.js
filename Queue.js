@@ -17,6 +17,9 @@ export default class Queue {
     get queue() {
         return this.#toString();
     }
+    get type() {
+        return this.#type;
+    }
     enqueue(element) {
         if (this.isEmpty && !this.#type)
             this.#type = typeof element;
