@@ -4,6 +4,9 @@
   "description": "A native JavaScript implementation of the Queue data structure",
   "main": "Queue.js",
   "type": "module",
+  "scripts": {
+	"publish": "npm publish --access=public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BletchleyTech/Queue.js.git"
