@@ -17,6 +17,9 @@ export default class Queue<T> {
 	get queue(): string {
 		return this.#toString();
 	}
+	get type(): string {
+		return this.#type;
+	}
 	enqueue(element: T): void {
 		if (this.isEmpty && !this.#type) this.#type = typeof element;
 		if (typeof element !== this.#type) throw new Error("Invalid type");
